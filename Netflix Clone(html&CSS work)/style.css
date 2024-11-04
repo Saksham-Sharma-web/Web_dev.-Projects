@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/0e916f82-036f-468a-a098-52592391d3a8/null/IN-en-20240902-POP_SIGNUP_TWO_WEEKS-perspective_a8d5d4ae-15d5-4414-b272-b12d2fce75cd_large.jpg"
+    );
+    height: 92vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.main .box{
+    height: 92vh;
+    width: 100%;
+    opacity: 0.62;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+span img{
+    position: relative;
+    z-index: 20;
+}
+nav{
+    display: flex;
+    padding-top: 8px;
+    justify-content: space-between;
+    margin-left: 165px;
+    align-items: center;
+}
+.flex{
+    margin-right: 75px;
+}
+button{
+    position: relative;
+    height: 30px;
+    cursor: pointer;
+    padding: 3px;
+    z-index: 15;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+   
+}
+.hero{
+    height: calc(100% - 89px);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    z-index: 10;
+    filter: brightness(100%);
+    font-size: larger;
+    font-family: 'Martel Sans', sans-serif;
+    position: relative;
+    padding: 0px 30px;
+
+}
+.hero :first-child{
+    font-weight: bolder;
+}
+.interaction{
+    padding-top: 74px;
+}
+input{
+    height: 38px;
+    border-radius: 7px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    color: rgb(247, 241, 241);
+    padding-left: 17px;
+}
+.trans{
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(244, 239, 239, 0.5);
+    border-radius: 6px;
+}
+#arrow:hover{
+     background-color: rgb(97, 17, 17)
+}
+#arrow{
+    color: rgb(250, 234, 234);
+    padding: 2px 25px;
+    padding-bottom: 8px;
+    margin: 9px;
+    border-radius: 6px;
+    text-align:center;
+    justify-content:center;
+    align-items: center;
+    height: 41px;
+}
+.separation{
+    height: 10px;
+    background-color: rgb(61, 60, 60);
+}
+.first{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 64px;
+    padding-top: 58px;
+    
+}
+@media screen and (max-width:900px){
+   .first{
+        display: flex;
+        flex-wrap: wrap;
+    }
+} 
+ 
+    
+.secText{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding-top: 112px; */
+    font-size: x-large;
+}
+.first> div{
+    display: flex;
+    flex-direction: column;
+}
+.first> div:first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.first> div :nth-child(2){
+    font-size: 24px;
+    font-weight:800;
+}
+.secImg{ 
+    position: relative;
+}
+.secImg img{
+    position: relative;
+    z-index: 10;
+    width: 35vw;
+    margin-top: 15px;
+}
+.secImg video{
+    position: absolute;
+    top: 96px;
+    right: 69px;
+    width: 26vw;
+    height: fit-content;
+}
+.third img{
+    position: relative;
+    width: 580px;
+   
+}
+.third video{
+ top: 45px;
+ width: 390px;
+ right: 99px;
+}
+.fourth{
+    padding-bottom: 75px;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin: 30px;
+    padding-top: 14px;
+}
+.FAQ{
+    padding-bottom: 18px;
+}
+.Fbox{
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    background-color: rgb(30, 28, 28);
+    padding:25px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+    
+}
+.Fbox:hover{
+    background-color: rgb(22, 21, 21);
+}
+.bottom{
+    padding-top: 23px;
+    /* margin-left: 572px;*/
+    padding-bottom: 43px; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    gap: 21px;
+    padding-top: 25px;
+    padding-bottom: 55px;
+}
+footer a{
+    /* text-decoration: none; */
+    color: rgb(166, 179, 191);
+    font-size: 16px;
+}
+.foot{
+    display: flex;
+    row-gap: 25px;
+    flex-direction: column;
+    color: white;
+}
